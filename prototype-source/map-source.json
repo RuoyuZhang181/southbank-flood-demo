@@ -1,0 +1,8 @@
+{
+  "provider": "OpenStreetMap contributors",
+  "downloadedOn": "2026-10-16",
+  "downloadUrl": "https://api.openstreetmap.org/api/0.6/map?bbox=144.9540,-37.8288,144.9630,-37.8220",
+  "bounds": [144.9540, -37.8288, 144.9630, -37.8220],
+  "license": "ODbL-1.0",
+  "attributionUrl": "https://www.openstreetmap.org/copyright"
+}

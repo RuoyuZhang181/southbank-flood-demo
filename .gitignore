@@ -1,0 +1,20 @@
+# Publish only the standalone demo and the source files listed below.
+# Course PDFs, local previews, machine-specific checks and generated caches stay local.
+*
+!.gitignore
+!.gitattributes
+!README.md
+!THIRD_PARTY_NOTICES.md
+!southbank-flood-demo.html
+!prototype-source/
+prototype-source/*
+!prototype-source/app.js
+!prototype-source/routing.js
+!prototype-source/index.template.html
+!prototype-source/build_demo.py
+!prototype-source/example.json
+!prototype-source/map-source.json
+!prototype-source/southbank.osm
+!prototype-source/leaflet.js
+!prototype-source/leaflet.css
+!prototype-source/LEAFLET-LICENSE.txt
