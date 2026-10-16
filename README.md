@@ -63,31 +63,6 @@ If you replace the map snapshot or change the graph bounds/filtering, update the
 - Include the rebuilt HTML when updating source, so teammates can still download and run the current demo.
 - The repository does not automatically publish a website or enable GitHub Pages.
 
-## 中文使用说明
-
-### 直接使用
-
-在 GitHub 点击 **Code → Download ZIP**，解压后双击 `southbank-flood-demo.html`，使用 Chrome 或 Edge 打开即可。完全离线，无需安装 Python 或其他软件。
-
-- 点 **Load example journey** 加载示例。
-- 切换 **No flooding / Local flood / Expanded** 比较不同情景。
-- 点 **Reset journey** 后，依次点击地图选择起点和终点。
-- 点击位置会吸附到附近的步行路径，路线以吸附后的位置为准。
-- 若起终点被洪水覆盖，重新选点；若路网被切断，页面显示无可用路线。
-
-### 修改功能
-
-修改 `prototype-source` 中的源码，再运行：
-
-```sh
-python prototype-source/build_demo.py
-```
-
-这会重新生成根目录的 HTML。只修改源码不会自动更新旧 HTML。
-运行 Demo 不需要 Python；修改后重新打包才需要 Python 3。
-
-公开仓库允许所有人查看和下载，但不代表所有人都可以直接上传修改。组员可以通过 Fork 和 Pull Request 提交改动，或由仓库所有者邀请为协作者。
-
 ## Data and attribution
 
 © OpenStreetMap contributors, ODbL 1.0. Snapshot downloaded on 16 October 2026.
